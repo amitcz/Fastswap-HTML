@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fast Swap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!---------All css link--------->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" media="all" type="text/css">
+
+</head>
+
+<body>
+    <!----------------header start------------------->
+    <header class="header bg-white shadow_hader">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="logo"></a>
+
+                <div class="collapse navbar-collapse justify-content-center" id="navbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Link 1</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 2</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 3</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link 4</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <a href="#" class="btn-outline-green">My Wallet</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar"
+                        aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <img src="./images/menu.svg" alt="" width="20px" />
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!----------------header end------------------->
+    <section class="bg-light-green h-100vh">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="pb-5 pt-150 text-center">
+                        <img src="./images/img1.svg" alt="" />
+                        <div class="f52-bebus text-uppercase pt-3">Aenean placerat dapibus</div>
+                        <div class="f18-600">Welcome to FastSwap, stake Fast to earn Fast.</div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-5 pr-md-0">
+                    <div class="box2">
+                        <img src="./images/b1.svg" alt="" />
+                        <div class="f30-700 pt-4">0.00000000</div>
+                        <div class="f14-400 pb-4">x FAST Available</div>
+                        <button type="button" disabled class="btn-outline-secondary">Convert to FAST</button>
+                    </div>
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-xl-3 col-lg-4 col-md-5 pl-md-0">
+                    <div class="box2">
+                        <img src="./images/b2.svg" alt="" />
+                        <div class="f30-700 pt-4">0.00000000</div>
+                        <div class="f14-400 pb-4">FAST Tokens Available</div>
+                        <button type="button" data-toggle="modal" data-target="#depositeModal"
+                            class="btn-outline-secondary">Convert to xFAST</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modal -->
+    <div class="modal fade" id="depositeModal" tabindex="-1" role="dialog" aria-labelledby="depositeModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <Form>
+                        <div class="f18-600 text-center pb-4">Deposit FAST Tokens</div>
+                        <div class="f16-600 opacity5 text-right pb-2">9.01548782314598745214 FAST Available</div>
+                        <div class="inputBox d-flex align-items-center justify-content-between">
+                            <input type="number" class="input" placeholder="0">
+                            <div class="d-flex align-items-center">
+                                <button type="button" class="btn-link min-width-90">FAST</button>
+                                <button type="button" class="btn-outline-green min-width-90">MAX</button>
+                            </div>
+                        </div>
+                        <div class="pt-4 d-flex justify-content-center align-items-center">
+                            <button type="button" class="btn-outline-secondary mr-3"
+                                data-dismiss="modal">Cancel</button>
+                            <button type="button" class="btn-outline-green">Confirm</button>
+                        </div>
+                    </Form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!---- All js link------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>

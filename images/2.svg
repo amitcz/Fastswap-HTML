@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70">
+  <g id="_2" data-name="2" transform="translate(-30 -33)">
+    <path id="Path_1685" data-name="Path 1685" d="M35,0A35,35,0,1,1,0,35,35,35,0,0,1,35,0Z" transform="translate(30 33)" fill="#2ba562"/>
+    <g id="pie_chart-24px_1_" data-name="pie_chart-24px (1)" transform="translate(45 48)">
+      <path id="Path_1678" data-name="Path 1678" d="M0,0H40V40H0Z" fill="none"/>
+      <path id="Path_1679" data-name="Path 1679" d="M18.667,2A16.667,16.667,0,1,0,35.333,18.667,16.673,16.673,0,0,0,18.667,2ZM31.883,17H20.333V5.45A13.337,13.337,0,0,1,31.883,17ZM5.333,18.667A13.341,13.341,0,0,1,17,5.45V31.883A13.341,13.341,0,0,1,5.333,18.667Zm15,13.217V20.333h11.55A13.337,13.337,0,0,1,20.333,31.883Z" transform="translate(1.333 1.333)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

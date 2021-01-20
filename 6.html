@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Fast Swap</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <!---------All css link--------->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css" media="all" type="text/css">
+
+</head>
+
+<body>
+    <!----------------header start------------------->
+    <header class="header bg-white shadow_hader">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="logo"></a>
+
+                <a href="#" class="custom_btn">My Wallet</a>
+            </nav>
+        </div>
+    </header>
+    <!----------------header end------------------->
+    <section class="bg-light-green h-100vh pb-lg-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="pb-5 pt-150 text-center">
+                        <div class="f42-bebus text-uppercase pt-3">Nam imperdiet lorem placerat</div>
+                        <div class="f18-600 opct_50">Mauris consequat volutpat vitae diam.</div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="wht_box">
+                        <p class="text-center def_p mb-4">Your Uniswap Liquidity</p>
+                        <button class="hvr_btn align-items-center" data-toggle="modal" data-target="#TokenModal">
+                            <img src="images/weth_ic.png" alt="" class="mr-2"> 
+                            <span class="wht_txt mr-2">WETH - </span>
+                            <img src="images/dlr_ic.png" class="mr-2" alt=""> 
+                            <span class="wht_txt">USDC</span>
+                            <span class="rgt_txt ml-auto">27.67888 <img src="images/arrow.svg" class="ml-3" alt=""> </span>
+                        </button>
+                        <button class="hvr_btn align-items-center" data-toggle="modal" data-target="#TokenModal">
+                            <img src="images/weth_ic.png" alt="" class="mr-2"> 
+                            <span class="wht_txt mr-2">WETH - </span>
+                            <img src="images/dlr_ic.png" class="mr-2" alt=""> 
+                            <span class="wht_txt">USDC</span>
+                            <span class="rgt_txt ml-auto">27.67888 <img src="images/arrow.svg" class="ml-3" alt=""> </span>
+                        </button>
+                        <button class="hvr_btn align-items-center" data-toggle="modal" data-target="#TokenModal">
+                            <img src="images/weth_ic.png" alt="" class="mr-2"> 
+                            <span class="wht_txt mr-2">WETH - </span>
+                            <img src="images/dlr_ic.png" class="mr-2" alt=""> 
+                            <span class="wht_txt">USDC</span>
+                            <span class="rgt_txt ml-auto">27.67888 <img src="images/arrow.svg" class="ml-3" alt=""> </span>
+                        </button>
+                        <button class="hvr_btn align-items-center" data-toggle="modal" data-target="#TokenModal">
+                            <img src="images/weth_ic.png" alt="" class="mr-2"> 
+                            <span class="wht_txt mr-2">WETH - </span>
+                            <img src="images/dlr_ic.png" class="mr-2" alt=""> 
+                            <span class="wht_txt">USDC</span>
+                            <span class="rgt_txt ml-auto">27.67888 <img src="images/arrow.svg" class="ml-3" alt=""> </span>
+                        </button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Modal -->
+    <div class="modal fade def_modal" id="TokenModal" tabindex="-1" role="dialog" aria-labelledby="TokenModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <form class="tkn_form">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p class="text-center def_p p_smbld mb-4 mt-3">Amount of Tokens</p>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <img src="images/tkn_ic.png" class="mb-4" alt=""> 
+                        </div>
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control tknfld" placeholder="0">
+                                <span class="spn_2">MAX</span>
+                                <span class="spn_1">WETH - USDC</span>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center mt-4 mb-4">
+                            <button type="button" class="custom_btn cncl_btn mrpdng" data-dismiss="modal">Cancel</button>
+                            <button type="button" class="custom_btn mrpdng">Confirm</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!---- All js link------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
